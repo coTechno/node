@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form method="POST" action="/login">
+      <div>
+        <label for="username_or_email">Username or email:</label>
+        <input type="text" id="username_or_email" name="username_or_email" required>
+      </div>
+      <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <div>
+        <button type="submit">Login</button>
+      </div>
+      <div>
+        <a href="/forgot-password">Forgot password?</a>
+      </div>
+    </form>
+    <div>
+      <a href="/resend-verification">Resend verification link</a>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <form method="POST" action="/login">
+    <% if (typeof error !== 'undefined') { %>
+      <div class="error"><%= error %></div>
+    <% } %>
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password">
+    <input type="submit" value="Login">
+  </form> -->
